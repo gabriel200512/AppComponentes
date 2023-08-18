@@ -5,27 +5,28 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    tools:context=".Escola_Activity">
+    tools:context=".Futebol_Activity">
 
     <ImageView
-        android:layout_width="match_parent"
-        android:layout_height="283dp"
+        android:layout_width="428dp"
+        android:layout_height="286dp"
         android:scaleType="centerCrop"
-        android:src="@drawable/escola" />
+        android:src="@drawable/futebol" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Qual seu time de coração?"
+
+        />
 
     <EditText
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:hint="Digite seu RA"/>
-    <EditText
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:hint="Digite sua senha"/>
+        android:hint="Digite Aqui" />
+
     <Button
-        android:layout_width="match_parent"
+        android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="entrar"/>
-
-
-
+        android:text="enviar"/>
 </LinearLayout>

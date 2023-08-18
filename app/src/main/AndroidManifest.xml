@@ -13,10 +13,13 @@
         android:theme="@style/Theme.MyApp"
         tools:targetApi="31">
         <activity
-            android:name=".Menudois_Activity"
+            android:name=".Futebol_Activity"
             android:exported="false" />
         <activity
-            android:name=".Menu_Activity"
+            android:name=".Escola_Activity"
+            android:exported="false" />
+        <activity
+            android:name=".Mapa_Activity"
             android:exported="false" />
         <activity
             android:name=".Login_Activity"
